@@ -167,15 +167,26 @@ INSERT IGNORE INTO `kota` (`id_kota`, `nama_kota`, `ket_kota`) VALUES
   (4, 'Bangkalan', 'Kabupaten Bangkalan, Madura');
 
 -- ------------------------------------------------------------
--- Data awal: Admin default
--- Email    : admin@penjamuhandal.id
--- Username : admin
--- Password : admin123
+-- Data awal: User default
+-- 
+-- ADMIN:
+--   Email    : admin@penjamuhandal.id
+--   Username : admin
+--   Password : admin123
+--
+-- STAFF:
+--   Email    : staff@penjamuhandal.id
+--   Username : staff
+--   Password : staff123
+--
 -- (Bisa login dengan email ATAU username)
 -- ------------------------------------------------------------
 INSERT IGNORE INTO `user` (`id_user`, `id_kota`, `username`, `email`, `pw`, `role`) VALUES
   (1, 1, 'admin', 'admin@penjamuhandal.id',
    '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lHHG',
-   'admin');
+   'admin'),
+  (2, 2, 'staff', 'staff@penjamuhandal.id',
+   '$2a$10$6od4ALfvLrFWQpcvNSpGo.LAUYqPbz3Xlc/YBNcNysCxLdJkL1nhm',
+   'staff');
 
 COMMIT;

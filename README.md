@@ -64,13 +64,23 @@ Menjalankan Aplikasi (setiap kali mau pakai)
 
 LOGIN CREDENTIALS
 
+ADMIN (Akses Penuh):
 Email: admin@penjamuhandal.id
 Password: admin123
 
 Atau bisa juga pakai username:
-
 Username: admin
 Password: admin123
+
+STAFF (Akses Terbatas):
+Email: staff@penjamuhandal.id
+Password: staff123
+
+Atau bisa juga pakai username:
+Username: staff
+Password: staff123
+
+Catatan: Bisa login dengan email atau username untuk kedua role.
 
 URL PENTING
 
